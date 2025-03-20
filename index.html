@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="assets/css/tablet.css">
+</head>
+     <body>
+ 
+    <!-- HEADER -->
+
+     <div class="HEADER">
+       <a href="MAIN-DIV" style="text-decoration: none;color: black;">
+        <div class="HUNTERS-LOGO-IDENTITY">
+            <img src="assets/images/hunters logo.jpg" alt="humters-logo">
+            <H4>IT'S ME</H4>
+        </div>
+    </a>
+
+     <div class="menu-container"> 
+          <ul class="NAV-BUTTON">
+            <li><a href="#MAIN-DIV">HOME</a></li>
+            <li><a href="#ABOUT">ABOUT</a></li>
+            <li><a href="#PROJECT-1">PROJECT</a></li>
+            <li><a href="#MY-WORKS">WORKS</a></li>
+            <li class="HIRE-BTN"><a href="#BTN">HIRE ME</a></li>
+          </ul>
+        </div>
+
+        <div class="burger-icon">
+            <img src="assets/images/icons8-menu-50.png" alt="" onclick="toggleMenu()">
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+     <div class="menu-container-moblie"> 
+        <img class="close-btn" src="assets/images/icons8-close-30.png" alt="" onclick="toggleMenu()">
+        <ul class="nav-menu-mobile">
+        <li><a href="#MAIN-DIV">HOME</a></li>
+        <li><a href="#ABOUT">ABOUT</a></li>
+        <li><a href="#PROJECT-1">PROJECT</a></li>
+        <li><a href="#MY-WORKS">WORKS</a></li>
+        <li class="HIRE-BTN"><a href="#">HIRE ME</a></li>
+      </ul>
+     </div>
+
+    <!-- HUNTERS/BANNER -->
+
+    <div id="MAIN-DIV" class="HUNTER">
+        <div class="hunter-img" style="position:relative;">
+        <img src="assets/images/download (1).jpg" alt="HUNTER" style="border-radius: 20px;">
+        <img class="SMALL-LOGO" src="assets/images/hunters logo.jpg" alt="HUNTERS-LOGO">
+
+        </div>
+        <div class="HUNTERS-HEADING">
+            <P>YOUR FRIENDLY NEIGHBORHOOD</P>
+            <H1 id="output"> JOHN <BR> VON</BR></H1>
+            <div class="HUNTERS-BUTTON">
+            <BUTTON style="margin-right: 15px;">HIRE ME</BUTTON>
+            <BUTTON>CONTACT ME</BUTTON>  
+            <script>
+                function interact() {
+                    alert("Welcome to JavaScript!");
+                    
+                    let name = prompt("What is your name?");
+                    name = name && name.trim() !== "" ? name : "von";
+                    
+                    let likesJS = confirm("Do you like JavaScript?");
+                    
+                    let message = likesJS 
+                        ? `Hello, ${name}! Glad you like JavaScript!` 
+                        : `Hello, ${name}! Hope you learn to enjoy it!`;
+                    
+                    document.getElementById("output").textContent = message;              
+                    
+        }
+                    
+                // Add event listener for Ctrl + * key press
+                document.addEventListener("keydown", function(event) {
+                    if (event.ctrlKey && event.key === "*") {
+                        interact();
+                    }
+                });
+            </script>
+              
+        </div>
+            <P>IF YOU NEED ME, JUST CALL ME</P>     
+        </div>
+    </div>
+   
+
+   <!-- section-2 -->
+
+    <div class="SECTION-2">
+       <div class="PARENTS">
+        <div style="width:50%;"></div>
+        <div class="IMAGE-CONT">
+            <img class="IMAGE-SIZE" src="assets/images/portfolio.png" alt="">
+        </div>
+
+       </div>
+       <div class="SECTION-2-2">
+        <img class="SIZE" src="assets/images/fb.png" alt="">
+        <p>FACEBOOK</p>
+        <img class="SIZE" src="assets/images/insta.jpg" alt="">
+        <p>INSTAGRAM</p>
+        <img class="SIZE" src="assets/images/mess.jpg" alt="">
+        <p>MESSENGER</p>
+        <img class="SIZE" src="assets/images/tiktik.png" alt="">
+        <p>TIKTOK</p>
+       </div>
+    </div>
+    
+    <div id="ABOUT" class="ABOUT-CONT">
+        <div>
+            <img class="PICTURE-SIZE" src="assets/images/eedf1f14-5ea2-4fbf-8f05-14cf299e9980.jpg" alt="">
+        </div>
+        <div class="ABOUT-ME-CONT">
+            <h3 class="AKO">ABOUT ME</h3>
+            <p>I AM JOHN VON GARNABES, 22 YEARS OLD FROM PATEROS METRO MANILA, MY HOBBY IS PLAYING ONLINE GAMES AND BASKETBALL, I ALSO WATCH ANIME SOMETIMES WHEN I'M BORING, THAT'S ALL THANK YOU</p>
+        </div>
+    </div>
+
+    <div id="PROJECT-1" class="MY-PROJECT">
+        <div class="PROJECT" >
+            <h3 style="display: flex;justify-content: center;">SKILLS AND EXPERTISE</h3>
+            <p>✅ Technical Skills – Wiring, circuit troubleshooting, reading blueprints, and adhering to electrical codes.</p>
+            <p>✅ Hands-on Expertise – Installing electrical components, testing systems, and ensuring energy efficiency.</p>
+            <p>✅ Specialized Knowledge – Industrial systems, automation (PLC), renewable energy (solar, wind), and high-voltage work.</p>
+            <p>✅ Soft Skills & Safety – Problem-solving, attention to detail, teamwork, and following safety protocols.</p>
+            <p>✅ Essential Tools – Multimeters, voltage testers, wire strippers, and advanced diagnostic equipment.</p>
+        </div>
+        <div class="GOKULE">
+          <div class="BORDER"> 
+            <img class="MORP" src="assets/images/GON2.jpg" alt="gon">
+            <h3>RECENT PROJECT</h3>
+            <p> Eplore my portfolio too see the <br> impact 
+            i've made for my clients.</p>
+        </div> 
+        <div class="BORDER"> 
+              <img class="MORP" src="assets/images/kurapika.jpg" alt="kurapika">
+              <h3>CONTACT ME</h3>
+            <p> Let's discuss how can i help you.</p>
+        </div> 
+        <div class="BORDER"> 
+             <img class="MORP" src="assets/images/leorio.jpg" alt="leorio">
+             <h3>HIRE ME</h3>
+            <p> i'm available <br> for any electrical issue.</p>  
+        </div> 
+        </div>
+    </div>
+
+    <div class="WORKS">
+        <div id="MY-WORKS" class="TEXT">
+            <h3 class="NOT">TESTIMONIALS</h3>
+            <P>"As a skilled and experienced electrician, I take great pride in my ability to deliver high-quality electrical work with precision and safety. With a strong understanding of wiring, troubleshooting, and system installations, I ensure that every project is completed efficiently and up to standard. My problem-solving skills, attention to detail, and commitment to excellence allow me to handle complex electrical tasks with confidence. Whether working on residential, commercial, or industrial projects, I always strive to provide reliable and professional service. My passion for the electrical field drives me to stay updated with the latest technologies and best practices, ensuring top-notch results for every client."</P>
+        </div> 
+            <div class="ELECTRIC">   
+            <img class="PIC" src="assets/images/ELECTRIC.jpg" alt="">
+        </div>
+    </div>
+    <script>
+        function toggleMenu(){
+            document.querySelector(".menu-container-moblie").classList.toggle("active");
+        }
+    </script>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+

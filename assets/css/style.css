@@ -1,0 +1,283 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background: url(https://c4.wallpaperflare.com/wallpaper/101/47/698/hunter-x-hunter-anime-red-background-red-wallpaper-preview.jpg);
+    background-size: 16% ;
+
+}
+
+.HUNTER{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    flex-wrap: wrap;
+    flex-basis: 400px;
+}
+
+.HUNTERS-HEADING{
+    flex-grow: 1;
+}
+
+.hunter-img{
+    flex-grow: 1;
+}
+
+#MAIN-DIV{
+    padding:100px 100px 160px;
+
+}
+
+.burger-icon{
+    display: none;
+}
+
+.menu-container-moblie{
+    display: none;
+}
+
+.HEADER{
+    position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 9998;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-color: rgba(129,48,60,255);
+}
+
+.HUNTERS-LOGO-IDENTITY{
+
+display: flex;
+align-items: center;
+gap: 20px;
+
+
+}
+
+ .HUNTERS-LOGO-IDENTITY img{
+    height: 50px;
+    width: 50px;
+    
+ }
+
+ .SMALL-LOGO{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 100px;
+    left: 0px;
+ }
+
+.NAV-BUTTON{
+    display: flex;
+    align-items: center;
+    gap: 30PX;
+    list-style: none;
+}
+
+.NAV-BUTTON a{
+    text-decoration: none;
+    color: black;
+}
+
+.NAV-BUTTON a:hover{
+    color: aqua;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.HIRE-BTN{
+    background-color: blue;
+    color: white;
+    padding: 3px 15px;
+    border-radius: 20px;
+}
+
+.HUNTERS-HEADING h1{
+    font-size: 70px;
+    color: white;
+}
+
+.HUNTERS-HEADING p{
+    color: white;
+}
+
+ .HUNTERS-BUTTON button{
+    background-color: blue;
+    color: white;
+    padding: 3px 5px;
+    border: none;
+ }
+
+ .HUNTERS-BUTTON button:hover{
+    background-color:rgba(62,117,111,255);
+    color: black;
+    font-weight: bold;
+
+ }
+
+
+ .HIRE-BTN a{
+    color: white!important;
+
+ }
+ .HIRE-BTN a:hover{
+    color: black !important;
+    text-decoration: none;
+    font-weight: 400;
+
+ }
+
+ .HIRE-BTN:hover{
+    background-color: rgba(62,117,111,255);
+    padding: 3px 15px;
+    border-radius: 20px;
+ }
+
+
+.SECTION-2{
+  height: fit-content; 
+  padding: 40px 0 40px;   
+
+}
+
+
+.PARENTS{
+    display: flex;
+    padding: 70px 0 40px 50px;
+    
+
+}
+
+.IMAGE-CONT{
+    background: rgba(0,0,0,255);
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 10px 0 10px 10px;
+    border-radius: 20px;
+    
+    
+}
+
+.IMAGE-SIZE{
+    height: 100px;
+    width: 100px;
+}
+
+.SECTION-2-2{
+    display: flex;
+    justify-content: center;
+    padding: 100px o;
+
+}
+
+
+.SECTION-2-2 p{
+    color: white;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.SECTION-2-2 p:hover{
+    color: black;
+    font-weight:bold;
+    background-color:rgba(62,117,111,255);
+    border-radius: 15px;
+    text-decoration: underline;
+}
+
+.SIZE{
+    height: 50px;
+    width: 50px;
+    border-radius: 150px;
+}
+
+.ABOUT-CONT{
+    display: flex;
+    align-items: center;
+    padding: 40px 100px 160px;
+    justify-content: space-evenly;
+}
+    .PICTURE-SIZE{
+        height: 400px;
+        width: 200px;
+        padding: 50px;
+        border-radius: 100px;
+    }
+
+    .ABOUT-ME-CONT{
+        background-color: bisque;
+        padding: 100px 50px;
+        border-radius: 100px;
+    }
+
+    .AKO{
+        justify-content: center;
+        display: flex;
+    }
+
+    .MY-PROJECT{
+        display: flex;
+        gap: 50px;
+        padding: 100px 0 150px;
+    }
+
+    .PROJECT{
+        width: 40%;
+        background-color: antiquewhite;
+        border-radius: 30px;
+    }
+
+    .GOKULE{
+        display: flex;
+        gap: 25px;
+    }
+    
+    .MORP{
+        height: 330px;
+        width: 210px;
+        border-radius: 30px;
+    }
+    .BORDER{
+        background-color: antiquewhite;
+        border-radius: 10px;
+
+    }
+
+    .WORKS{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        padding: 100px 0 150px;
+        justify-content: center;
+    }
+    .TEXT{
+       background-color: antiquewhite;
+       width: 50%;
+    }
+
+    .ELECTRIC{
+       background-color: beige;
+    }
+
+    .PIC{
+        height: 300px;
+        width:450px;
+        border-radius: 50px;
+    }
+
+
+    #output{
+        font-size: 35px;
+        display: flex;
+       
+    }
+    
+
+
