@@ -1,0 +1,166 @@
+/* Basic styles for the contact form */
+#contact-form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Ensure padding doesn't overflow */
+}
+
+/* Submit button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the confirmation data section */
+#submitted-data {
+    text-align: center;
+    padding: 20px;
+    background-color: #e9f7ef;
+    border-radius: 10px;
+    display: none;
+}
+
+/* Back button styling */
+#submitted-data button {
+    background-color: #28a745;
+}
+
+#submitted-data button:hover {
+    background-color: #218838;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For small screens (mobile devices) */
+@media (max-width: 600px) {
+    #contact-form-container {
+        width: 90%; /* Take up 90% of the screen width */
+        padding: 15px;
+    }
+
+    h3 {
+        font-size: 1.5rem; /* Slightly smaller font for mobile */
+    }
+
+    label {
+        font-size: 0.9rem;
+    }
+
+    input, textarea {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+}
+
+/* For medium screens (tablets and small laptops) */
+@media (max-width: 768px) {
+    #contact-form-container {
+        width: 80%; /* Take up 80% of the screen width */
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 1.75rem; /* Medium size font for tablets */
+    }
+
+    input, textarea {
+        font-size: 1.1rem;
+    }
+
+    button {
+        font-size: 1.1rem;
+    }
+}
+
+/* For large screens (laptops and desktops) */
+@media (min-width: 769px) {
+    #contact-form-container {
+        width: 50%; /* Take up 50% of the screen width */
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 2rem; /* Larger font size for larger screens */
+    }
+
+    input, textarea {
+        font-size: 1.2rem;
+    }
+
+    button {
+        font-size: 1.2rem;
+    }
+
+    .contact{
+        display: flex;
+        justify-content: space-between;
+        background-color: antiquewhite;
+        position: sticky;
+        top: 0;
+        z-index:  9998;
+    }
+
+    .contact-btn{
+        display: flex;
+        gap: 20px;
+        color: white;
+        list-style: none;
+
+    }
+
+    .cons{
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-logo{
+        height: 50px;
+        width: 50px;
+        display: flex;
+    }
+    .burger-icon{
+        display: none;
+    }
+    .cons-mobile{
+        display: none;
+    }
+
+
+
+}

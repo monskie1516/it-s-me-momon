@@ -1,0 +1,59 @@
+@media screen and (max-width: 768px){
+    .cons{
+        display: none;
+    }
+    .burger-icon{
+        display: flex;
+    }
+    .burger-icon img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .cons-mobile{
+        background: lightgray;
+        padding: 30px;
+        width: 250px;
+        height: 100vh;
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 9999;
+    }
+
+    .cons-mobile.active{
+        display: flex;
+        transition: all ease-in-out ;
+    }
+    .close-btn{
+        height: 30px;
+        width: 30px;
+    }
+
+    .contact-btn-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30PX;
+        list-style: none;
+        padding: 0;
+        transition: all ease-in-out;
+    }
+
+    .contact-logo{
+        height: 50px;
+        width: 50px;
+    }
+
+    .contact{
+        background-color: azure;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+
+    }
+ 
+
+}
